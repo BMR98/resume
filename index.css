@@ -1,0 +1,35 @@
+body{
+  background:grey;
+}
+.flex-parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile{
+  width:25%;
+  height:auto;
+  padding:2%;
+  margin:2%;
+  background: white;
+  border:2px solid black;
+}
+.content{
+  width:75%;
+  height:auto;
+  padding:2%;
+  margin:2%;
+  background: white;
+  border: 2px solid black;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+h1{
+  text-align: center;
+  color:blue;
+}
